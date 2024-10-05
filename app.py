@@ -1,13 +1,3 @@
-import streamlit as st
-
-st.header('Tossing a Coin')
-
-number_of_trials = st.slider('Number of trials?', 1, 1000, 10)
-start_button = st.button('Run')
-
-if start_button:
-    st.write(f'Running the experient of {number_of_trials} trials.')
-
 import scipy.stats
 import streamlit as st
 import time
